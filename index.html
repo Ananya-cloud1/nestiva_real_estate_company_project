@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestiva Real Estate Company Project</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- -------------------------------------header---------------------------------------------- -->
+    <header>
+        <!-- -------------------navbar--------------------------- -->
+        <div class="navbar">
+            <div class="container">
+                <nav>
+                    <div class="navbar_brand">
+                        <a href="#">
+                            <img src="./img/nav-img.png" alt="nav-img">
+                        </a>
+                    </div>
+                    <div class="nav_items">
+                        <ul>
+                            <li><a href="./index.html" class="item">Home</a></li>
+                            <li><a href="#">Properties</a></li>
+                            <li><a href="#">Developments</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav_btn">
+                        <a href="#">Sign In</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i>+91 123 456 789</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ---------------------------------------main-------------------------------------------------- -->
+    <main>
+        <!-- ---------------------banner---------------------------- -->
+        <section class="banner section_padding">
+            <div class="container">
+                <div class="banner_content">
+                    <h1>Discover Your Next
+                        Exceptional Home.</h1>
+                    <p>Explore an exclusive collection of premier real estate
+                        properties tailored to elevate your lifestyle. </p>
+
+                    <a href="#" class="btn">Explore Properties</a>
+                    <a href="#" class="btn ban-btn">Contact Agent</a>
+                </div>
+                <div class="search_wrapper">
+                    <form>
+                        <div class="search_item">
+                            <label>LOOKING FOR</label>
+                            <select>
+                                <option>Property Type</option>
+                            </select>
+                        </div>
+                        <div class="search_item">
+                            <label>LOCATION</label>
+                            <select>
+                                <option>All Locations</option>
+                            </select>
+                        </div>
+                        <div class="search_item">
+                            <label>BHK</label>
+                            <select>
+                                <option>Select BHK</option>
+                            </select>
+                        </div>
+                        <div class="search_item">
+                            <label>YOUR BUDGET</label>
+                            <select>
+                                <option>Max. Price</option>
+                            </select>
+                        </div>
+                        <input type="submit" value="Search Property" class="submitbtn">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- -----------------------about------------------------- -->
+        <section class="about section1_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-50">
+                        <div class="about-content">
+                            <h2>Redefining Luxury Living
+                                Spaces.
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate sollicitudin
+                                dui a lacinia. Etiam blandit, neque sed tempus posuere, ante massa porttitor justo, ut
+                                pellentesque diam urna in tellus. Nam mattis leo non ante maximus laoreet. Phasellus a
+                                semper ipsum. In aliquet tincidunt ex ut porttitor.</p>
+                            <a href="#" class="btn about-btn">Learn More About US <i
+                                    class="fa-solid fa-square-up-right"></i></a>
+                            <div class="row feature-box">
+                                <div class="col col-50">
+                                    <div class="feature-item">
+                                        <div class="icon">
+                                            <img src="./img/about-img4.png" alt="about-img4">
+                                        </div>
+                                        <h3>Secure Transactions</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                    </div>
+                                </div>
+                                <div class="col col-50">
+                                    <div class="feature-item">
+                                        <div class="icon">
+                                            <img src="./img/about-img5.png" alt="about-img5">
+                                        </div>
+                                        <h3>Premium Quality</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-50">
+                        <div class="gallery-section">
+                            <div class="big-image">
+                                <img src="./img/about-img1.png" alt="about-img1">
+                            </div>
+                            <div class="small-gallery">
+                                <div class="small-image">
+                                    <img src="./img/about-img2.png" alt="about-img2">
+                                </div>
+
+
+                                <div class="small-image">
+                                    <img src="./img/about-img3.png" alt="about-img3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------property------------------------- -->
+        <section class="property section_padding">
+            <div class="container">
+                <div class="property-heading">
+                    <h2>Featured Listings</h2>
+                    <p>Explore our handpicked selection of premium properties.</p>
+                </div>
+                <div class="row">
+                    <div class="col col-33">
+                        <div class="property-card">
+                            <div class="property-img">
+                                <img src="./img/property-img1.png" alt="property-img1">
+                            </div>
+                            <a href="#" class="btn property-btn">Just Listed</a>
+                            <div class="price-box">
+                                <p>Starts From</p>
+                                <h3>₹1.00 Cr.</h3>
+                            </div>
+                        </div>
+                        <div class="property-part">
+                            <div class="property-content">
+                                <h3>The Belvedere Penthouse</h3>
+                                <p><i class="fa-solid fa-location-dot"></i>BT Road</p>
+                            </div>
+                            <div class="property-info">
+                                <span><i class="fa-solid fa-bed"></i>4 Beds</span>
+                                <span><i class="fa-solid fa-bath"></i>3.5 Baths</span>
+                                <span><i class="fa-solid fa-up-right-and-down-left-from-center"></i>3,800 Sqft</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-33">
+                        <div class="property-card">
+                            <div class="property-img">
+                                <img src="./img/property-img2.png" alt="property-img2">
+                            </div>
+                            <div class="btn-group">
+                                <a href="#" class="btn1">Residential</a>
+                                <a href="#" class="btn1">Retail</a>
+                            </div>
+                            <div class="price-box">
+                                <p>Starts From</p>
+                                <h3>₹1.00 Cr.</h3>
+                            </div>
+                        </div>
+                        <div class="property-part">
+                            <div class="property-content">
+                                <h3>Anu Bhomi</h3>
+                                <p><i class="fa-solid fa-location-dot"></i>Baruipur</p>
+                            </div>
+                            <div class="property-info">
+                                <span><i class="fa-solid fa-bed"></i>5 Beds</span>
+                                <span><i class="fa-solid fa-bath"></i>3.5 Baths</span>
+                                <span><i class="fa-solid fa-up-right-and-down-left-from-center"></i>5,800 Sqft</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-33">
+                        <div class="property-card">
+                            <div class="property-img">
+                                <img src="./img/property-img3.png" alt="property-img3">
+                            </div>
+                            <a href="#" class="property-btn">Under Construction</a>
+
+                            <div class="price-box">Price On Request</p>
+                            </div>
+                        </div>
+                        <div class="property-part">
+                            <div class="property-content">
+                                <h3>Oakridge Modern Villa</h3>
+                                <p><i class="fa-solid fa-location-dot"></i>Taratala</p>
+                            </div>
+                            <div class="property-info">
+                                <span><i class="fa-solid fa-bed"></i>10 Beds</span>
+                                <span><i class="fa-solid fa-bath"></i>8.5 Baths</span>
+                                <span><i class="fa-solid fa-up-right-and-down-left-from-center"></i>9,200 Sqft</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --------------------Ongoing-Development------------------------ -->
+        <section class="development section_padding">
+            <div class="container">
+                <div class="development-heading">
+                    <h2>Ongoing Development</h2>
+                    <p>Invest in the future with our exclusive off-plan and under-construction projects.</p>
+                </div>
+                <div class="development-card">
+                    <div class="development-img">
+                        <img src="./img/development-img1.png" alt="development-img1">
+                    </div>
+                    <div class="development-content">
+                        <p><a href="#" class="development-btn">Completion Q4 2026</a></p>
+                        <h3>Eden Grove Estate</h3>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i>NewTown</p>
+                        <p>Experience the pinnacle of urban living with our upcoming high-rise
+                            luxury apartments. Featuring panoramic city views, world-class resident
+                            amenities including a rooftop infinity pool, wellness center, and 24/7
+                            concierge service.</p>
+                        <div class="development-button">
+                            <a href="#" class="btn2">View Project Details</a>
+                            <a href="#" class="btn2 btn3">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="development-card">
+                    <div class="development-img">
+                        <img src="./img/development-img2.png" alt="development-img2">
+                    </div>
+                    <div class="development-content">
+                        <p><a href="#" class="development-btn">Completion Q4 2026</a></p>
+                        <h3>Eden Grove Estate</h3>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i>NewTown</p>
+                        <p>A master-planned gated community offering exclusive multi-acre lots
+                            and custom-built modern townhomes. Surrounded by lush nature trails
+                            private lakes, and an elite country club designed for the perfect family
+                            lifestyle.</p>
+                        <div class="development-button">
+                            <a href="#" class="btn2">View Project Details</a>
+                            <a href="#" class="btn2 btn3">Download Brochure</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------luxury--------------------------- -->
+        <section class="luxury section_padding">
+            <div class="container">
+                <div class="luxury-wrapper">
+                    <div class="luxury-content">
+                        <h2>Redefining Luxury Living Since
+                            2012.</h2>
+                        <ul>
+                            <li><i
+                                    class="fa-regular fa-circle-check"></i>Award-winning architecture and design partnerships
+                            </li>
+                            <li><i
+                                    class="fa-regular fa-circle-check"></i>Exclusive access to off-market premium listings
+                            </li>
+                            <li><i
+                                    class="fa-regular fa-circle-check"></i>Personalized, white-glove client advisory services
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="luxury-counter">
+                        <div class="counter-box">
+                            <h3>$2B+</h3>
+                            <p>Total Property Sales</p>
+                        </div>
+                        <div class="counter-box">
+                            <h3>150+</h3>
+                            <p>Executive Active Listings</p>
+                        </div>
+                        <div class="counter-box">
+                            <h3>12 Yrs</h3>
+                            <p>Market Experience</p>
+                        </div>
+                        <div class="counter-box">
+                            <h3>100%</h3>
+                            <p>Commitment to Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------Brands--------------------------- -->
+        <section class="brands section_padding">
+            <div class="container">
+                <div class="brands-heading">
+                    <h2>Trusted By Brands</h2>
+                </div>
+                <div class="row brand">
+                    <div class="col col-25">
+                        <div class="brand-img">
+                            <img src="./img/Brand-img1.png" alt="Brand-img1">
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="brand-img">
+                            <img src="./img/Brand-img2.png" alt="Brand-img2">
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="brand-img">
+                            <img src="./img/Brand-img3.png" alt="Brand-img3">
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="brand-img">
+                            <img src="./img/Brand-img4.png" alt="Brand-img4">
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="brand-img">
+                            <img src="./img/Brand-img5.png" alt="Brand-img5">
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="brand-img">
+                            <img src="./img/Brand-img6.png" alt="Brand-img6">
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="brand-img">
+                            <img src="./img/Brand-img7.png" alt="Brand-img7">
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="brand-img">
+                            <img src="./img/Brand-img8.png" alt="Brand-img8">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------footer--------------------------------- -->
+        <footer class="footer section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-25">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="./img/footer-img.png" alt="footer-img">
+                            </a>
+                            <p>Curating the world's most exceptional rea
+                                estate. We guide our clients to homes that
+                                inspire and elevate their lifestyle.</p>
+                            <div class="social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-16">
+                        <div class="footer-links">
+                            <span>Properties</span>
+                            <ul>
+                                <li><a href="#">Featured Listings</a></li>
+                                <li><a href="#">Off-Market</a></li>
+                                <li><a href="#">New Developments</a></li>
+                                <li><a href="#">Sold Property</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-16">
+                        <div class="footer-links">
+                            <span>Company</span>
+                            <ul>
+                                <li><a href="#">About Us </a></li>
+                                <li><a href="#">Our Agents </a></li>
+                                <li><a href="#">Careers </a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-16">
+                        <div class="footer-links">
+                            <span>Contact</span>
+                            <ul>
+                                <li><a href="#">Nestiva</a></li>
+                                <li><a href="#">36/1A Elgin RoadKolkata - 700020</a></li>
+                                <li><a href="#"><i class="fa-regular fa-envelope"></i>care@nestiva.in</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-25">
+                        <div class="footer-subscribe">
+                            <span>Stay Updated</span>
+                            <p>Subscribe to our newsletter for exclusive
+                                off-market listings and market insights.</p>
+                            <form>
+                                <input type="email" name="email" id="email" placeholder="Email address">
+                                <input type="submit" value="Subscribe" class="submit1btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>©<a href="#"> 2026 Nestiva. All rights reserved.</a></p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

@@ -108,7 +108,9 @@ p {
     color: #FFFFFF;
     background-color: #154B4C;
 }
-
+.btn:hover{
+    background-color: #8A9795;
+}
 /* navbar */
 nav {
     display: flex;
@@ -201,7 +203,7 @@ nav {
 .search_wrapper {
     position: absolute;
     left: 50%;
-    bottom: -290px;
+    bottom: -250px;
     transform: translateX(-50%);
     width: 100%;
     display: flex;
